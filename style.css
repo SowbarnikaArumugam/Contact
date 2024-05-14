@@ -9,7 +9,7 @@
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(234, 225, 225);
+    /* background-color: rgb(234, 225, 225); */
 }
 .left-box, .right-box{
     width: calc(50% - 10px); 
@@ -32,26 +32,20 @@ h1{
     margin: 0px 240px 20px;
 }
 
-.left-box table{
-    margin: 0px 0px 0px 60px;
-    /* border-spacing: 10px; */
-}
 
-.left-box table tr td{
-    padding-bottom: 17px;
-    
-}
 .left-box input{
     width: 300px;
     height: 33px;
-    margin-left: 0px;
     border: none;
     border-radius: 20px;
+    margin-bottom: 30px;
 }
 
 .left-box label{
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 30px;
+    margin-left: 50px;
 }
 .left-box #save{
     width: 80px;
@@ -64,4 +58,66 @@ h1{
     border-radius: 20px;
 }
 
+
+
+
+
+@media screen and (max-width: 1000px){
+    .left-box img{
+        margin: 0px 150px 20px;
+    }
+    .left-box input{
+        width: 210px;
+    }
+    .left-box #save{      
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .left-box img{
+        margin: 0px 110px 20px;
+    }
+    .left-box input{
+        width: 185px;
+    }
+    .left-box #save{      
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width: 767px){
+    .container{
+        display: block;
+    }
+    .left-box, .right-box{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .left-box img{
+        margin: 0px 210px 20px;
+    }
+    .left-box input{
+        width: 250px;
+    }
+    .left-box label{
+        margin-left: 100px;
+    }
+    .left-box #save{      
+        margin-left: 240px;
+    }
+}
+@media screen and (max-width: 767px){
+    .left-box img{
+        margin: 0px 150px 20px;
+    }
+    .left-box input{
+        width: 250px;
+    }
+    .left-box label{
+        margin-left: 40px;
+    }
+    .left-box #save{      
+        margin-left: 190px;
+    }
+}
 /*******************************Right-box *************************************************/
