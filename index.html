@@ -11,23 +11,23 @@
         <div class="left-box">
             <h1>Add new Contacts</h1>
             <img src="./assets/image.jpeg" alt="photo">
-            
-              <form action="">
-                <div class>
-                    <label for="name">Name:       </label>
-                    <input type="text"> <br>
+            <form id="contactForm" onsubmit="return validateForm()">
+                <div>
+                    <label for="name">Name:</label>
+                    <input id="name" name="name" type="text"> <br>
                 </div>
                 <div>
                     <label for="number">Number:</label>
-                    <input type="number"> <br>
+                    <input id="number" name="number" type="tel" pattern="\d{10}" title="Please enter exactly 10 digits"> <br>
                 </div>
-                    <input id="save"  type="submit" value="Save">
-                </form>
+                <button id="save" type="submit">Save</button>
+            </form>
             
         </div>
         <div class="right-box">
             <h1>Contact Details</h1>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
