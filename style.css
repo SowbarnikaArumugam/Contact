@@ -156,7 +156,7 @@ button{
         margin-left: 190px;
     }
 }
-@media screen and (max-width: 405px){
+@media screen and (max-width: 410px){
     h1{
         padding: 40px 80px;
         font-size: 33px;
