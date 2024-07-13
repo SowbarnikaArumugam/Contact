@@ -152,3 +152,42 @@ button{
         margin-left: 190px;
     }
 }
+@media screen and (max-width: 400px){
+    h1{
+        padding: 40px 80px;
+        font-size: 33px;
+    }
+    .left-box img{
+        margin: 0px 100px 20px;
+    }
+    .left-box input{
+        width: 180px;
+    }
+    .left-box label{
+        margin-left: 20px;
+        font-size: 19px;
+    }
+    .left-box #save{      
+        margin-left: 145px;
+    }
+}
+@media screen and (max-width: 350px){
+    h1{
+        padding: 40px 60px;
+        font-size: 33px;
+    }
+    .left-box img{
+        margin: 0px 70px 20px;
+    }
+    .left-box input{
+        width: 180px;
+        margin-left: 50px;
+    }
+    .left-box label{
+        margin-left: 20px;
+        font-size: 19px;
+    }
+    .left-box #save{      
+        margin-left: 135px;
+    }
+}
