@@ -39,6 +39,8 @@ h1{
     border: none;
     border-radius: 20px;
     margin-bottom: 30px;
+    padding-left: 9px;
+    font-weight: 15px;
 }
 
 .left-box label{
@@ -78,7 +80,7 @@ button{
 
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1025px){
     .left-box img{
         margin: 0px 150px 20px;
     }
@@ -90,7 +92,7 @@ button{
     }
 }
 
-@media screen and (max-width: 830px){
+@media screen and (max-width: 837px){
     .left-box img{
         margin: 0px 110px 20px;
     }
@@ -101,7 +103,7 @@ button{
         margin-left: 150px;
     }
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 785px){
     .container{
         display: block;
     }
@@ -128,6 +130,20 @@ button{
     }
     .left-box input{
         width: 250px;
+    }
+    .left-box label{
+        margin-left: 40px;
+    }
+    .left-box #save{      
+        margin-left: 190px;
+    }
+}
+@media screen and (max-width: 457px){
+    .left-box img{
+        margin: 0px 150px 20px;
+    }
+    .left-box input{
+        width: 200px;
     }
     .left-box label{
         margin-left: 40px;
